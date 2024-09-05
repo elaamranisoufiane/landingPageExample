@@ -1,0 +1,95 @@
+a.site-header:hover {
+	color: green;
+	text-decoration: none;
+}
+
+a.main-title {
+	color: green;
+	font-size: 35px;
+}
+
+.caroucel {
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel-item img {
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+	width: 100%;
+	height: auto;
+}
+
+.heading {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.carousel-item img {
+	object-fit: cover;
+	height: 400px;
+	width: 100%;
+}
+
+.carousel-caption {
+	bottom: 20px;
+}
+
+
+
+
+.form-container {
+	max-width: 600px;
+	margin: auto;
+}
+
+.form-header {
+	margin-bottom: 1.5rem;
+}
+
+
+img.apropos {
+	width: 260px;
+	height: 260px;
+	object-fit: cover;
+
+}
+
+p.card-text {
+	padding-bottom: 40px;
+}
+
+section {
+	padding: 20px;
+	min-height: 100vh;
+}
+
+section.caroucel {
+	height: 100vh;
+}
+
+.sub-card {
+	height: 500px;
+}
+
+header {
+	background-color: white;
+	opacity: 90%;
+}
